@@ -1,0 +1,25 @@
+html
+{
+	head
+	{
+		title
+		{
+			| Hello, Kaml!
+		}
+	}
+	body
+	{
+		div
+		{
+			h1
+			{
+				| Just some heading.
+			}
+			p
+			{
+				=> let x = "Hello, World";
+				= x
+			}
+		}
+	}
+}
